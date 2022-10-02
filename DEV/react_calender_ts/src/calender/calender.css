@@ -1,0 +1,22 @@
+.container{
+    width: 400px;
+    background: linear-gradient(0.25turn, #e1e1e4, #c7c2d8, #d3aadd);
+    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns:repeat(7 ,minmax(0 , 1fr) );
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.month{
+    grid-column: span 3;
+}
+.days{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.75rem
+}

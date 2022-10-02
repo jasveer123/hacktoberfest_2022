@@ -1,0 +1,25 @@
+.sidecontaier{
+    border: 1px solid rgb(223, 216, 209);
+    width: 250px;
+    height: 400px;
+    background-size: 260px 400px;
+    opacity: 0.9;
+    color: white;
+
+}
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:40px;
+    font-size: xx-large;
+    opacity: 0.6;
+}
+.date2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-top: 20px;
+    opacity: 0.6;
+}
